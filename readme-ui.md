@@ -1,5 +1,5 @@
 # Roman Numeral Converter UI
-<img src="https://github.com/user-attachments/assets/e8d38416-1e55-4ae4-916f-6ea00f714993" width="800" height="400"/>
+<img src="https://github.com/user-attachments/assets/e8d38416-1e55-4ae4-916f-6ea00f714993" width="400" height="200"/>
 ![image](https://github.com/user-attachments/assets/569708c7-ae61-4e22-bb2e-3037517f78e1)
 
 
