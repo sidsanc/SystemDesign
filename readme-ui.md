@@ -159,16 +159,16 @@ Below is an overview of the essential files and folders in the project:
 ## Key Components
 
 ### `ConverterForm`
-Interactive form with increment/decrement buttons and direct input to handle integer values (1–3999)【46†source】.
+Interactive form with increment/decrement buttons and direct input to handle integer values (1–3999).
 
 ### `ResultDisplay`
-Displays the converted Roman numeral or error messages dynamically based on API responses【49†source】.
+Displays the converted Roman numeral or error messages dynamically based on API responses.
 
 ### `useRomanNumeralConverter`
-Custom React Hook for seamless API integration and state management【50†source】.
+Custom React Hook for seamless API integration and state management.
 
 ### `Header` and `Footer`
-Includes branding, theme toggle, and credits for a polished look and feel【48†source】【47†source】.
+Includes branding, theme toggle, and credits for a polished look and feel.
 
 ---
 
