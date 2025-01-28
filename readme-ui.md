@@ -1,9 +1,4 @@
 # Roman Numeral Converter UI
-<img src="https://github.com/user-attachments/assets/569708c7-ae61-4e22-bb2e-3037517f78e1" width="500" height="250"/>
-<img src="https://github.com/user-attachments/assets/e8d38416-1e55-4ae4-916f-6ea00f714993" width="500" height="250"/>
-
-
-
 
 A modern and responsive React-based frontend application for converting integers (1–3999) into Roman numerals. Designed with an elegant UI and clean architecture, this project demonstrates expertise in frontend development and integration with a RESTful backend.
 
@@ -16,6 +11,11 @@ A modern and responsive React-based frontend application for converting integers
 - **Real-Time Conversion**: Converts numbers instantly using a REST API.
 - **Error Handling**: Displays descriptive error messages for invalid inputs or API failures.
 - **Mobile-Responsive Design**: Fully responsive and optimized for various screen sizes.
+
+---
+
+## Reference Specification
+Roman numeral specifications were referenced from [Wikipedia: Roman Numerals](https://en.wikipedia.org/wiki/Roman_numerals).
 
 ---
 
@@ -67,6 +67,30 @@ A modern and responsive React-based frontend application for converting integers
    npm run preview
    ```
 
+### Run with Docker
+1. Build the Docker image:
+   ```bash
+   docker build -t roman-numeral-converter-ui .
+   ```
+2. Run the Docker container:
+   ```bash
+   docker run -p 5173:5173 roman-numeral-converter-ui
+   ```
+
+---
+
+## Engineering and Testing Methodology
+
+- **Engineering Practices**:
+  - Modular design with reusable components (`ConverterForm`, `ResultDisplay`, etc.).
+  - State management using React Hooks and a custom hook (`useRomanNumeralConverter`) for API calls.
+  - Responsive design using Bootstrap for cross-device compatibility.
+
+- **Testing**:
+  - Unit tests implemented in `App.test.tsx` to validate core functionalities.
+  - Manual testing of edge cases like invalid inputs (e.g., numbers outside 1–3999).
+  - Error handling tested for API failures and input validation.
+
 ---
 
 ## File Structure
@@ -75,7 +99,7 @@ Below is an overview of the essential files and folders in the project:
 
 ```
 .
-├── Dockerfile
+├── Dockerfile              # Simplifies containerization for deployment.
 ├── README.md
 ├── eslint.config.js        # ESLint configuration for linting TypeScript and React code.
 ├── index.html              # Entry point for the Vite app.
@@ -118,6 +142,17 @@ Below is an overview of the essential files and folders in the project:
 - **`pages`**: Organizes different application pages, starting with `Home.tsx` as the main page.
 - **`public`**: Stores static files directly served by the application.
 - **`Dockerfile`**: Simplifies containerization for deployment.
+
+---
+
+## Dependency Attribution
+
+- **React**: JavaScript library for building user interfaces.
+- **Bootstrap**: Framework for responsive design.
+- **Axios**: HTTP client for API integration.
+- **Vite**: Frontend build tool for fast development.
+- **TypeScript**: Superset of JavaScript for static typing.
+- **ESLint**: Tool for identifying and fixing problems in JavaScript/TypeScript code.
 
 ---
 
