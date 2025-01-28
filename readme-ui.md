@@ -54,7 +54,7 @@ Roman numeral specifications were referenced from [Wikipedia: Roman Numerals](ht
    ```
 
 4. Open the application:
-   - Navigate to `http://localhost:5173` in your browser.
+   - Navigate to `http://localhost:3000` in your browser.
 
 ### Build for Production
 1. Build the application:
@@ -74,7 +74,7 @@ Roman numeral specifications were referenced from [Wikipedia: Roman Numerals](ht
    ```
 2. Run the Docker container:
    ```bash
-   docker run -p 5173:5173 roman-numeral-converter-ui
+   docker run -p 3000:3000 roman-numeral-converter-ui
    ```
 
 ---
